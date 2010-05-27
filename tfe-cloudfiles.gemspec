@@ -4,14 +4,14 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{cloudfiles}
+  s.name = %q{tfe-cloudfiles}
   s.version = "1.4.7"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["H. Wade Minter", "Rackspace Hosting"]
-  s.date = %q{2010-04-12}
+  s.authors = ["H. Wade Minter", "Rackspace Hosting", "Todd Eichel"]
+  s.date = %q{2010-05-27}
   s.description = %q{A Ruby version of the Rackspace Cloud Files API.}
-  s.email = %q{wade.minter@rackspace.com}
+  s.email = ["wade.minter@rackspace.com", "todd@toddeichel.com"]
   s.extra_rdoc_files = [
     "README.rdoc",
      "TODO"
@@ -24,7 +24,6 @@ Gem::Specification.new do |s|
      "Rakefile",
      "TODO",
      "VERSION",
-     "cloudfiles.gemspec",
      "lib/cloudfiles.rb",
      "lib/cloudfiles/authentication.rb",
      "lib/cloudfiles/connection.rb",
@@ -35,7 +34,8 @@ Gem::Specification.new do |s|
      "test/cloudfiles_connection_test.rb",
      "test/cloudfiles_container_test.rb",
      "test/cloudfiles_storage_object_test.rb",
-     "test/test_helper.rb"
+     "test/test_helper.rb",
+     "tfe-cloudfiles.gemspec"
   ]
   s.homepage = %q{http://www.rackspacecloud.com/cloud_hosting_products/files}
   s.rdoc_options = ["--charset=UTF-8"]
